@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.primary-color {
+    color: #FD6E0A;
+}
+
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+/* header & navigation styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 51px 200px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 51px;
+    font-size: 20px;
+
+}
+
+.primary-btn {
+    background: #FD6E0A;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+}
+
+.nav-tittle {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.nav-button {
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+/* Banner Styles */
+
+.banner {
+    margin: 0px 180px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-subtittle {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-tittle {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.banner-description {
+    font-size: 18px;
+    color: #757575;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about me section design */
+.about {
+    background-color: #FFF8F3;
+    margin-top: 130px;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.section-tittle {
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.section-description {
+    margin-top: 30px;
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.section-table {
+    align-items: center;
+    margin: 0 auto;
+}
+
+.section-table td {
+    font-size: 20px;
+
+}
+
+/* info section styles */
+
+.about-info-container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.info-tittle {
+    font-size: 20px;
+    color: #474747;
+}
+
+.info-description {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    color: #474747;
+}
