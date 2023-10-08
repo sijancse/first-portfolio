@@ -88,10 +88,13 @@ main {
     margin: 0 auto;
 }
 
+section {
+    margin-top: 130px;
+}
+
 /* about me section design */
 .about {
     background-color: #FFF8F3;
-    margin-top: 130px;
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
@@ -144,9 +147,7 @@ main {
 
 /* What I do section styles */
 
-.what-i-do {
-    margin-top: 130px;
-}
+.what-i-do {}
 
 .skill-container {
     display: flex;
@@ -175,4 +176,94 @@ main {
     font-size: 16px;
     color: #757575;
 
+}
+
+/* Resume section styles */
+
+.resume-contents {
+    display: flex;
+    gap: 24px;
+}
+
+.resume-section-tittle {
+    margin-top: 130px;
+    font-size: 30px;
+    font-weight: 700;
+    columns: #474747;
+}
+
+.resume-section-subtittle {
+    margin-top: 30px;
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-section-sub-subtittle {
+    margin-bottom: 20px;
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume-section-details {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* .experiences1, .experiences2, .education1, .education2{
+    border-bottom: 1px solid #D1D1D1;
+    padding-bottom: 30px;
+} */
+
+hr {
+    margin-top: 30px;
+}
+
+.resume-button {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* contract section styles */
+
+.contract {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.contract-tittle {
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 28px;
+}
+
+.contract-description{
+    font-size: 16px;
+    color: #474747;
+}
+
+.contract input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input{
+    height: 64px;
+    
+}
+
+.img img{
+    margin-right: 24px;
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
 }
