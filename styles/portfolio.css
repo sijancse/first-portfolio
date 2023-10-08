@@ -43,7 +43,23 @@ nav li {
     height: 64px;
     font-size: 20px;
     font-weight: 700;
-    padding: 18px 35px;
+    padding: 18px 30px;
+}
+
+.btn {
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 19px 18px;
+    background: none;
+    margin-left: 30px;
+}
+
+.btn i{
+    padding-right: 10px;
 }
 
 .nav-tittle {
@@ -242,12 +258,14 @@ hr {
     margin-bottom: 28px;
 }
 
-.contract-description{
+.contract-description {
     font-size: 16px;
     color: #474747;
 }
 
-.contract input[type="text"], input[type="email"], textarea{
+.contract input[type="text"],
+input[type="email"],
+textarea {
     margin-bottom: 24px;
     border: none;
     border-radius: 5px;
@@ -255,15 +273,16 @@ hr {
     padding: 18px 30px;
 }
 
-input{
+input {
     height: 64px;
-    
+
 }
 
-.img img{
+.img img {
     margin-right: 24px;
     margin-top: 30px;
 }
-a{
+
+a {
     text-decoration: none;
 }
